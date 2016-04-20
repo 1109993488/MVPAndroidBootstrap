@@ -5,7 +5,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:1.2.3'
+        classpath 'com.android.tools.build:gradle:2.1.0-beta1'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -13,11 +13,11 @@ buildscript {
 }
 
 ext{
-    compileSdkVersion = 21
+    compileSdkVersion = 23
     minSdkVersion = 15
-    targetSdkVersion = 21
+    targetSdkVersion = 23
 
-    buildToolsVersion = '22.0.1'
+    buildToolsVersion = '24.0.0 rc3'
     androidGradleVersion = '1.2.3'
 
     androidAnnotationsVersion = '3.3.1'
@@ -27,12 +27,12 @@ ext{
     godotVersion = '+'
     jsr250Version = '1.0'
 
-    supportV4 = '21.0.3'
-    supportV13 = '21.0.3'
-    appcompatVersion = '21.0.3'
-    cardViewVersion = '21.0.3'
-    recyclerViewVersion = '21.0.3'
-    paletteVersion = '21.0.3'
+    supportV4 = '23.3.0'
+    supportV13 = '23.3.0'
+    appcompatVersion = '23.3.0'
+    cardViewVersion = '23.3.0'
+    recyclerViewVersion = '23.3.0'
+    paletteVersion = '23.3.0'
 
     picassoVersion = '2.5.2'
     retrofitVersion = '1.9.0'
